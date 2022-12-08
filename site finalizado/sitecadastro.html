@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tela de cadastro</title>
+		<meta charset="utf-8">
+		<style>
+			@font-face {
+				font-family: "starwars" ;
+				src: url("arquivos/starjhol.ttf") format('truetype');
+			}
+			h1{
+				font-family:"starwars";
+				font-size: 3em;
+				color: yellow;
+			}
+			form {
+				width: 30%;
+				margin: 30px 0;
+				border: 3px solid yellow;
+				padding: 20px;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body background="arquivos/xwing.jpg">
+		<center><h1>primeira vez aqui?</h1></center>
+		<center><h3><font color="white" face="Bahnschrift">Faça seu cadastro!</font></h3></center>
+		<hr color="yellow"></hr>
+		<center><form>
+			<font color="white" face="Bahnschrift">
+			Nome: 
+			<input type="text" name="firstname" size="20">
+			<p>
+			Sobrenome: 
+			<input type="text" name="lastname" size="14">
+			<p>
+			E-mail: 
+			<input type="text" name="email" size="19">
+			<p>
+			Data de nascimento:
+			<br>
+			<input type="int" name="date" size="1">
+			/
+			<input type="int" name="date" size="1">
+			/
+			<input type="int" name="date" size="4">
+			<p>
+			Sexo:
+			<br>
+			<input type="radio" name="sex" value="male"> Masculino
+			<input type="radio" name="sex" value="female"> Feminino
+			</p>
+			Eu aceito receber e-mails sobre conteúdos da página:
+			<input type="checkbox" name="aceito">
+			<p>
+			<a href="arquivos/blogsw.html"><img src="arquivos/concluir.png"></a>
+			<p>
+			Feito por Flávio Oliveira
+			</font>
+		</center></form>
+		<center>
+		<audio preload="auto" autoplay controls loop>
+			<source src="arquivos/musica.mp3" type="audio/mpeg">
+		</audio>
+		</center>
+	</body>
+</html>
